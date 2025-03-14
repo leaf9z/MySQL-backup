@@ -4,7 +4,7 @@ export PATH=$MYSQL_HOME/bin:$PATH
 
 mysql_backup_dir=/data/mysql/
 mysql_username="root"
-mysql_password="ADMINouma@2022"
+mysql_password="Half@2022"
 
 cd $mysql_backup_dir
 lastincrementfolder=`ls -l|grep ^d|tail -n 1 | awk '{print $9}'`
